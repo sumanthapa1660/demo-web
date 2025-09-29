@@ -66,7 +66,7 @@ import NavCont from './Components/Navbar/NavCont'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/demo-web">
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/AboutUS' element={<NavAbout />} />
